@@ -85,8 +85,8 @@ Handler.New()
 
     :AddModule(GiveD20.New(ActiveSlot.SLOT_PRIMARY))
     :AddModule(GiveMomsKey.New())
-    -- :AddModule(GiveChaos.New())
-    -- :AddModule(GiveCoinsOnUltraGreed.New(40))
+     :AddModule(GiveChaos.New())
+     :AddModule(GiveCoinsOnUltraGreed.New(40))
 
 -- #####################################################################################################
 
